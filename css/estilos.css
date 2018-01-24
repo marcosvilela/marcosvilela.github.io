@@ -1,0 +1,66 @@
+/**definições de cor**/
+p{/**seletor das tags p todos tendo fundo branco e cor azul**/
+	color:blue;
+}
+
+/**definições de fonte**/
+p{/**seletor das tags p todas tendo fontes da família monospace**/
+	font-family: "Verdana", monospace;
+}
+
+h1{/**seletor das tags h1 todas tendo fontes da família sans-serif**/
+	font-family: "Comic Book Regular", "Verdana", monospace;
+	color:blue;
+	text-align:center;
+	font-size: 35px;
+}
+
+h2{
+	font-family: "Verdana", sans-serif;
+	background-color: #008080;
+}
+body{/**seletor das tags body todas tendo fontes da família sans-serif e as declaradas no corpo**/
+	font-family: "Verdana", "Helvetica", "Tahoma", sans-serif;
+}
+
+	/**propriedade extra para fontes:
+		font-style define o estilo da fonte (normal, italic e oblique)
+	**/
+
+/**definições de texto**/
+
+p{
+	text-align: justify; /**alinhamento**/
+	padding: 10px; /*espaçamento*/
+	margin: 0 auto;
+	/*modelo de espaçamento - padding: padding-top padding-right/left padding-bottom;*/
+	/*line-height: 3px; tamanho da altura da linha*/
+	/*word-spacing: 5px; tamanho do espaço entre palavras*/
+	/*text-indent: 30px; tamanho da margem da primeira linha do texto*/
+
+}
+
+figure{
+	text-align: center;
+}
+/**definições de borda**/
+
+body{
+	border-color: blue; /*cor da borda*/
+	border-style: solid; /*estilo da borda*/
+	border-width: 0.5px; /*largura da borda*/
+	background-color: #eaeaea;
+}
+
+h2{
+	border-color: black;
+	border-bottom: 2px solid black;
+	font-size: 26px
+}
+
+h3{
+	background-color: #008080;
+	border-bottom: 2px solid black;
+	font-family: "Verdana", monospace;
+	font-size: 26px
+}
