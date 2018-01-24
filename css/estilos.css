@@ -9,7 +9,7 @@ p{/**seletor das tags p todas tendo fontes da família monospace**/
 }
 
 h1{/**seletor das tags h1 todas tendo fontes da família sans-serif**/
-	font-family: "Comic Book Regular", "Verdana", monospace;
+	font-family: "Verdana", "Verdana", monospace;
 	color:blue;
 	text-align:center;
 	font-size: 35px;
@@ -49,6 +49,7 @@ body{
 	border-color: blue; /*cor da borda*/
 	border-style: solid; /*estilo da borda*/
 	border-width: 0.5px; /*largura da borda*/
+	padding: 0 100px 0 100px;
 	background-color: #eaeaea;
 }
 
